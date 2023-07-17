@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sayeed_website/static/css/main.073c9b0a.css",
+    "main.js": "/sayeed_website/static/js/main.68f8fa1d.js",
+    "static/js/787.10b43c95.chunk.js": "/sayeed_website/static/js/787.10b43c95.chunk.js",
+    "static/media/logo.svg": "/sayeed_website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/sayeed_website/index.html",
+    "main.073c9b0a.css.map": "/sayeed_website/static/css/main.073c9b0a.css.map",
+    "main.68f8fa1d.js.map": "/sayeed_website/static/js/main.68f8fa1d.js.map",
+    "787.10b43c95.chunk.js.map": "/sayeed_website/static/js/787.10b43c95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.68f8fa1d.js"
+  ]
+}
