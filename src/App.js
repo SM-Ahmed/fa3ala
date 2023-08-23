@@ -20,9 +20,13 @@ function App() {
             <img id="f1" src={logo6}></img>
           </div>
         </>
+        <br />
+        <br />
+        <br />
         <p>
           Learn Arabic conjugations
         </p>
+        <br />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -32,6 +36,9 @@ function App() {
           Let's go! يَلَّا
         </a>
       </header>
+      <footer className="App-footer">
+        <p>Site created by Sayeed Ahmed</p>
+      </footer>
     </div>
   );
 }
