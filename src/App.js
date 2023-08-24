@@ -1,45 +1,19 @@
-import logo1 from './logo1.png';
-import logo2 from './logo2.png';
-import logo3 from './logo3.png';
-import logo4 from './logo4.png';
-import logo5 from './logo5.png';
-import logo6 from './logo6.png';
+import React from "react";
 import './App.css';
+import Home from "./Home";
+import Practice from "./Practice";
+import {BrowserRouter, Route, Routes } from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <>
-          <div className="App-logo">
-            <img id="f6" src={logo1}></img>
-            <img id="f5" src={logo2}></img>
-            <img id="f4" src={logo3}></img>
-            <img id="f3" src={logo4}></img>
-            <img id="f2" src={logo5}></img>
-            <img id="f1" src={logo6}></img>
-          </div>
-        </>
-        <br />
-        <br />
-        <br />
-        <p>
-          Learn Arabic conjugations
-        </p>
-        <br />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Let's go! يَلَّا
-        </a>
-      </header>
-      <footer className="App-footer">
-        <p>Site created by Sayeed Ahmed</p>
-      </footer>
-    </div>
+    <BrowserRouter>
+      <main className="App">
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/practice" element={<Practice/>} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
 }
 
