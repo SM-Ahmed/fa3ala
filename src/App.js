@@ -1,6 +1,6 @@
 import React from "react";
-import Home from "./Home";
-import Practice from "./Practice";
+import Home from "./Home/Home";
+import Practice from "./Practice/Practice";
 import {BrowserRouter, Route, Routes } from "react-router-dom"
 
 function App() {
