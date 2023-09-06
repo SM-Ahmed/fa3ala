@@ -29,7 +29,7 @@ const DropdownMenus = ({form, setForm, tense, setTense, voice, setVoice, orderBy
                     <option value="imperfect-indicative">Imperfect Indicative</option>
                     <option value="imperfect-subjunctive">Imperfect Subjunctive</option>
                     <option value="imperfect-jussive">Imperfect Jussive</option>
-                    <option value="imperative">Imperfect Imperative</option>
+                    <option value="imperative">Imperative</option>
                 </select>
                 <p></p>
             </div>
