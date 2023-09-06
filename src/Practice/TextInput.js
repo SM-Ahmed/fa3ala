@@ -20,7 +20,7 @@ const TextInputExample = ({pronoun, answer, showAnswer}) => {
           value={text}
         />
         <p>
-          {pronoun}
+          {pronounsArabicDict[pronoun]}
         </p>
       </div>
     );
@@ -40,7 +40,7 @@ const TextInputExample = ({pronoun, answer, showAnswer}) => {
           value={text}
         />
         <p>
-          {pronoun}
+          {pronounsArabicDict[pronoun]}
         </p>
       </div>
     );
@@ -58,7 +58,7 @@ const TextInputExample = ({pronoun, answer, showAnswer}) => {
           value={text}
         />
         <p>
-          {pronoun}
+          {pronounsArabicDict[pronoun]}
         </p>
       </div>
     );
@@ -75,5 +75,21 @@ const styles = StyleSheet.create({
     fontSize: 20,
   },
 });
+
+const pronounsArabicDict = {
+  "3sm": "هُوَ",
+  "3sf": "هِيَ",
+  "2sm": "أَنْتَ",
+  "2sf": "أَنْتِ",
+  "1s": "أَنَا",
+  "3dm": "(m) هُمَا",
+  "3df": "(f) هُمَا",
+  "2d": "أَنْتُمَا",
+  "3pm": "هُمْ",
+  "3pf": "هُنَّ",
+  "2pm": "أَنْتُمْ",
+  "2pf": "أَنْتُنَّ",
+  "1p": "نَحْنُ",
+}
 
 export default TextInputExample;
