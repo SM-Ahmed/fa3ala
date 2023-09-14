@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet, TextInput} from 'react-native';
+import {StyleSheet, TextInput} from 'react-native';
 import './TextInput.css';
 
 const TextInputExample = ({pronoun, answer, showAnswer}) => {

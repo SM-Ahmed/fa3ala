@@ -15,10 +15,10 @@
   pointer-events: none;
   -webkit-animation-name: fade;
   -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 8s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
+  animation-duration: 5s;
 }
 
 .Home-header {
@@ -62,23 +62,30 @@
 
 #f1 {
 }
-
 #f2 {
   -webkit-animation-delay: -0.5s;
 }
-
 #f3 {
   -webkit-animation-delay: -1s;
 }
-
 #f4 {
+  -webkit-animation-delay: -1.5s;
+}
+#f5 {
+  -webkit-animation-delay: -2s;
+}
+#f6 {
+  -webkit-animation-delay: -2.5s;
+}
+#f7 {
+  -webkit-animation-delay: -3s;
+}
+#f8 {
+  -webkit-animation-delay: -3.5s;
+}
+#f9 {
   -webkit-animation-delay: -4s;
 }
-
-#f5 {
+#f10 {
   -webkit-animation-delay: -4.5s;
-}
-
-#f6 {
-  -webkit-animation-delay: -5s;
 }

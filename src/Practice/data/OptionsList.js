@@ -1,0 +1,55 @@
+export const optionsList = {
+    form: [
+        { label: "I / فَعَلَ", value: "I" },
+        { label: "II / فَعَّلَ", value: "II" },
+        { label: "III / فاعَلَ", value: "III"},
+        { label: "IV / أَفْعَلَ", value: "IV" },
+        { label: "V / تَفَعَّلَ", value: "V" },
+        { label: "VI / تَفاعَلَ", value: "VI"},
+        { label: "VII/ اِنْفَعَلَ", value: "VII" },
+        { label: "VIII / اِفْتَعَلَ", value: "VIII" },
+        { label: "IX / اِفْعَلَّ", value: "IX"},
+        { label: "X / اِسْتَفْعَلَ", value: "X" },
+        { label: "XI / اِفْعالَّ", value: "XI" },
+        { label: "XII / اِفْعَوْعَلَ", value: "XII"},
+        { label: "XIII / اِفْعَوَّلَ", value: "XIII" },
+        { label: "XIV / اِفْعَنْلَلَ", value: "XIV" },
+        { label: "XV / اِفْعَنْلَى", value: "XV"},
+        { label: "Iq / فَعْلَقَ", value: "Iq" },
+        { label: "IIq / تَفَعْلَقَ", value: "IIq"},
+        { label: "IIIq / اِفْعَنْلَقَ", value: "IIIq" },
+        { label: "IVq / اِفْعَلَقَّ", value: "IVq" },
+    ],
+    weakness: [
+        { label: "Sound / ", value: "sound" },
+        { label: "Defective / ", value: "defective" },
+        { label: "Hollow / ", value: "hollow"},
+        { label: "Assimilated / ", value: "assimilated" },
+        { label: "Doubled / ", value: "doubled"}
+    ],
+    verbRarity: [
+        { label: "Common / ", value: "common" },
+        { label: "Uncommon / ", value: "uncommon" },
+        { label: "Rare / ", value: "rare"},
+    ],
+    verbQuranic: [
+        { label: "Quranic / ", value: "quranic" },
+        { label: "Non-Quranic / ", value: "non-quranic" },
+    ],
+    tense: [
+        { label: "Perfect / الماضِي", value: "perfect" },
+        { label: "Imperfect Indicative / المُضارِع المَرْفوع", value: "indicative" },
+        { label: "Imperfect Subjunctive / المُضارِع المَنْصوب", value: "subjunctive"},
+        { label: "Imperfect Jussive / المُضارِع المَجْزُوم", value: "jussive" },
+        { label: "Imperative / صِيغَة الأَمْر", value: "imperative" },
+    ],
+    voice: [
+        { label: "Active / صِيغَة المَعْلُوم", value: "active" },
+        { label: "Passive / صِيغَة المَجْهُول", value: "passive" },
+    ],
+    orderBy: [
+        { label: "Number / الرَقْم", value: "number" },
+        { label: "Person / ", value: "person" },
+        { label: "Random / ", value: "random"},
+    ],
+}

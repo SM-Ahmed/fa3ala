@@ -1,0 +1,8 @@
+.Menus {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 85vw;
+  }

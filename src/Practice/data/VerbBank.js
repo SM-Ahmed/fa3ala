@@ -1,0 +1,26 @@
+export const verbBank = [
+    {
+        id: 0,
+        infinitiveArabic: "فَعَلَ",
+        infinitiveEnglish: "to do",
+        roots: ["ف", "ع", "ل"],
+        form: "I",
+        weakness: "sound",
+        verbRarity: "common",
+        verbQuranic: "quranic",
+        pastVowel: "a",
+        presentVowel: "a",
+    },
+    {
+        id: 1,
+        infinitiveArabic: "فَحَصَ",
+        infinitiveEnglish: "to inspect",
+        roots: ["ف", "ح", "ص"],
+        form: "I",
+        weakness: "sound",
+        verbRarity: "common",
+        verbQuranic: "non-quranic",
+        pastVowel: "a",
+        presentVowel: "a",
+    },
+]
