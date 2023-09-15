@@ -31,6 +31,12 @@
   color: rgb(23, 54, 40);
 }
 
+.Home-button {
+  min-width: 10vw;
+  min-height: 7vh; 
+  font-size: calc(5px + 2vmin);
+}
+
 .Home-footer {
   min-height: 10vh;
   display: flex;
@@ -39,10 +45,6 @@
   justify-content: center;
   font-size: calc(5px + 2vmin);
   color: rgb(23, 54, 40);
-}
-
-.Home-link {
-  color: #5151d9;
 }
 
 @-webkit-keyframes fade {

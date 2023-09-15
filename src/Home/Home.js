@@ -8,7 +8,7 @@ import logo6 from './images/logo6.png';
 import logoBlank from './images/logoBlank.png';
 import './Home.css';
 
-function Home() {
+export default function Home() {
   return (
     <div className="Home">
       <header className="Home-header">
@@ -29,11 +29,23 @@ function Home() {
         <br />
         <br />
         <br />
-        <p>
-          Learn Arabic conjugations
-        </p>
         <br />
-        <a href="/practice"><button>Let's go! يَلَّا</button></a>
+        <br />
+        <br />
+        <h2>
+          Learn Arabic conjugations
+          <br /> <br />
+          تَعَلَّمْ الصَّرْفَ
+        </h2>
+        <br />
+        <div className="buttons">
+        <a href="/about">
+          <button className="Home-button" >About / مَعْلُومات</button>
+        </a>
+        <a href="/practice">
+          <button className="Home-button" >Practice! مارِسْ</button>
+        </a>
+        </div>
       </header>
       <footer className="Home-footer">
         <p>Site created by Sayeed Ahmed</p>
@@ -41,5 +53,3 @@ function Home() {
     </div>
   );
 }
-
-export default Home;

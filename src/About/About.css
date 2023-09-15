@@ -1,0 +1,11 @@
+.About {
+    text-align: center;
+    background-color: #cef5e5;
+    max-width: 100vw;
+    min-height: 100vh;
+  }
+  
+.About-header {
+    font-size: calc(20px + 2vmin);
+    color: rgb(23, 54, 40);
+  }

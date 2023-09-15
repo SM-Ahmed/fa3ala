@@ -23,4 +23,27 @@ export const verbBank = [
         pastVowel: "a",
         presentVowel: "a",
     },
+    {
+        id: 2,
+        infinitiveArabic: "بَدَلَ",
+        infinitiveEnglish: "to change, exchange",
+        roots: ["ب", "د", "ل"],
+        form: "I",
+        weakness: "sound",
+        verbRarity: "common",
+        verbQuranic: "quranic",
+        pastVowel: "a",
+        presentVowel: "u",
+    },
+    {
+        id: 2,
+        infinitiveArabic: "ذَكَّرَ",
+        infinitiveEnglish: "to remind",
+        roots: ["ذ", "ك", "ر"],
+        form: "II",
+        weakness: "sound",
+        verbRarity: "common",
+        verbQuranic: "quranic",
+    },
+    
 ]

@@ -6,3 +6,7 @@
     margin-right: 5%;
     max-width: 85vw;
   }
+
+.Error {
+  color: rgb(255, 0, 0);
+}
