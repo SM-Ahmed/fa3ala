@@ -2,7 +2,7 @@ export const optionsList = {
     form: [
         { label: "I / فَعَلَ", value: "I"},
         { label: "II / فَعَّلَ", value: "II" },
-        { label: "III / فاعَلَ", value: "III", disabled: true},
+        { label: "III / فاعَلَ", value: "III"},
         { label: "IV / أَفْعَلَ", value: "IV", disabled: true },
         { label: "V / تَفَعَّلَ", value: "V", disabled: true },
         { label: "VI / تَفاعَلَ", value: "VI", disabled: true},
@@ -25,16 +25,16 @@ export const optionsList = {
         { label: "Assimilated (e.g. و-ج-د)", value: "assimilated", disabled: true},
         { label: "Hollow (e.g. ق-و-ل)", value: "hollow", disabled: true},
         { label: "Defective (e.g. ر-م-ي)", value: "defective", disabled: true},
-        { label: "Doubled (e.g. م-د-د", value: "doubled", disabled: true}
+        { label: "Doubled (e.g. م-د-د)", value: "doubled", disabled: true}
     ],
     verbRarity: [
-        { label: "Common / ", value: "common" },
-        { label: "Uncommon / ", value: "uncommon" },
-        { label: "Rare / ", value: "rare"},
+        { label: "Common / عام", value: "common" },
+        { label: "Uncommon / غَرِيب", value: "uncommon" },
+        { label: "Rare / نادِر", value: "rare"},
     ],
     verbQuranic: [
-        { label: "Quranic / ", value: "quranic" },
-        { label: "Non-Quranic / ", value: "non-quranic" },
+        { label: "Quranic / قُرْآنِي", value: "quranic" },
+        { label: "Non-Quranic / غَيْر قُرْآنِي", value: "non-quranic" },
     ],
     tense: [
         { label: "Perfect / الماضِي", value: "perfect" },
@@ -49,7 +49,7 @@ export const optionsList = {
     ],
     orderBy: [
         { label: "Number / الرَقْم", value: "number" },
-        { label: "Person / ", value: "person" },
-        { label: "Random / ", value: "random"},
+        { label: "Person / الضَمِير", value: "person" },
+        { label: "Random / عَشْوائِي", value: "random"},
     ],
 }

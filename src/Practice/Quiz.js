@@ -29,12 +29,12 @@ export default function Quiz({quizData, status, choices, setQuizData, setStatus}
 function QuizPreamble({quizData}) {
     const arabicDict = {
         perfect: "الماضِي",
-        indicative: "المُضارِعِ المَرْفُوعِ",
-        subjunctive: "المُضارِعِ المَنْصُوبِ",
-        jussive: "المُضارِعِ المَجْزُومِ",
-        imperative: "الأَمْرِ",
-        active: "لمَعْلُومِ",
-        passive: "لمَجْهُولِ",
+        indicative: "المُضارِع المَرْفُوع",
+        subjunctive: "المُضارِع المَنْصُوب",
+        jussive: "المُضارِع المَجْزُوم",
+        imperative: "الأَمْر",
+        active: "لمَعْلُوم",
+        passive: "لمَجْهُول",
         to: "لِ"
     }
     const tenseAndVoiceEnglish = (quizData.tense==="imperative") 
@@ -45,10 +45,10 @@ function QuizPreamble({quizData}) {
         ? ""
         : arabicDict['to'].concat("", arabicDict[quizData.voice]);
     return(
-        <p>
+        <p className="Quiz-preamble">
           Conjugate the verb {quizData.infinitiveArabic} ("{quizData.infinitiveEnglish}") in the {tenseAndVoiceEnglish}.
           <br />
-          اِمْلِأْ الفَرَاغَ بِشَكْلِ الفِعْلِ (({quizData.infinitiveArabic})) الصَّحِيحِ فِي {arabicDict[quizData.tense]} المَبْنِيّ {voiceArabic}
+          اِمْلِأْ الفَرَاغ بِشَكْل الفِعْل (({quizData.infinitiveArabic})) الصَّحِيح فِي {arabicDict[quizData.tense]} المَبْنِيّ {voiceArabic}
         </p>
     )
 

@@ -8,7 +8,9 @@ export default function prepQuizData (choices) {
     const voice = (tense==="imperative") ? 'passive' : getRandomFromList(choices.voice); // Pick random voice from user choices
     const pronounOrder = getPronounOrder(choices.orderBy, tense);
     const verbRoots = identifyRoots(verb.infinitiveArabic, verbTable.rootIndices);
+    console.log(verbRoots)
     const conjugations = verbTable.conjugations[tense][voice];
+    console.log(conjugations)
     const verbConjugations = [];
     for (const pronoun of pronounOrder) {
       verbConjugations.push(

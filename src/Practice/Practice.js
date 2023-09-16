@@ -17,7 +17,7 @@ export default function Practice() {
           <PickOptions setStatus={setStatus} setChoices={setChoices} setQuizData={setQuizData} />
         </div>
       )
-    default:
+    default: // either 'writeAnswers' or 'checkAnswers'
       return (
         <div className="Practice">
           <Header />

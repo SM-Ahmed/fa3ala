@@ -8,4 +8,10 @@
 .About-header {
     font-size: calc(20px + 2vmin);
     color: rgb(23, 54, 40);
+    margin-top:0;
   }
+
+.About-text {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}

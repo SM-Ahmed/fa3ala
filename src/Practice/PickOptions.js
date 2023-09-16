@@ -47,18 +47,18 @@ export default function PickOptions({setStatus, setChoices, setQuizData}) {
       <a href="/"><button>Return</button></a>
       <button onClick={() => handleStart()}>Begin</button>
       <ErrorMessage errorStatus={errorStatus} />
-      <h4>Verb Options</h4>
+      <h4>Verb Filters</h4>
       <div className="Menus">
         <p>Form / الوَزْن</p> 
         <MultiSelect options={optionsList.form} value={formOptions} onChange={setFormOptions} disableSearch />
         <p>Weakness / الضَعْف</p> 
         <MultiSelect options={optionsList.weakness} value={weaknessOptions} onChange={setWeaknessOptions} disableSearch />
-        <p>Rarity / </p> 
+        <p>Rarity / النُدْرَة</p> 
         <MultiSelect options={optionsList.verbRarity} value={verbRarityOptions} onChange={setVerbRarityOptions} disableSearch />
         <p>Quranic? / مِنْ القُرآن؟</p> 
         <MultiSelect options={optionsList.verbQuranic} value={verbQuranicOptions} onChange={setVerbQuranicOptions} disableSearch />
       </div>
-      <h4>Quiz Options</h4>
+      <h4>Quiz Filters</h4>
       <div className="Menus">
         <p>Tense & Mood / الحالَة</p> 
         <MultiSelect options={optionsList.tense} value={tenseOptions} onChange={setTenseOptions} disableSearch/>
