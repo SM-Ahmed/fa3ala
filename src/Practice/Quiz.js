@@ -5,7 +5,7 @@ import {SafeAreaView} from 'react-native';
 export default function Quiz({quizData, status, choices, setQuizData, setStatus}) {
     const questions = quizData.conjugations.map(question =>
       <TextInputExample pronoun={question.pronoun} answer={question.verb} showAnswer={status=='checkAnswers'} />)
-    const buttonLabel = (status==='writeAnswers') ? 'Check' : 'Retry';
+    const buttonLabel = (status==='writeAnswers') ? 'Show Answers' : 'Hide Answers';
     const nextStatus = (status==='writeAnswers') ? 'checkAnswers' : 'writeAnswers';
     function handleNewVerbClick() {
       const newQuizData = prepQuizData(choices)

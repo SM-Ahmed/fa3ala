@@ -45,7 +45,7 @@ export default function PickOptions({setStatus, setChoices, setQuizData}) {
   return (
     <div>
       <a href="/"><button>Return</button></a>
-      <button onClick={() => handleStart()}>Begin</button>
+      <button onClick={() => handleStart()}>Start Quiz</button>
       <ErrorMessage errorStatus={errorStatus} />
       <h4>Verb Filters</h4>
       <div className="Menus">
