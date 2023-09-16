@@ -47,7 +47,7 @@ function QuizPreamble({quizData}) {
     return(
         <p className="Quiz-preamble">
           Conjugate the verb {quizData.infinitiveArabic} ("{quizData.infinitiveEnglish}") in the {tenseAndVoiceEnglish}.
-          <br />
+          <br /><br />
           اِمْلِأْ الفَرَاغ بِشَكْل الفِعْل (({quizData.infinitiveArabic})) الصَّحِيح فِي {arabicDict[quizData.tense]} المَبْنِيّ {voiceArabic}
         </p>
     )
